@@ -26,6 +26,7 @@ console.log('A little about me:', me);
 */
 let fullName = me ['firstName'] + ' ' + me ['lastName'];
 console.log('My full name is:', fullName);
+console.log('My full name is:', `${me.firstName} ${me.lastName}`);
 
 
 /* 3. Nested arrays
